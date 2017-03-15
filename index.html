@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- build:css dist/assets/css/app.css-->
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="appjs">
+
+    <div class="container">
+        <ng-view></ng-view>
+    </div>
+
+    <!-- build:js dist/assets/js/app.js -->
+    <script src="app/app.js"></script>
+    <script src="app/controllers/main.js"></script>
+    <script src="app/controllers/about.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
